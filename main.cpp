@@ -14,16 +14,13 @@ public:
 class Square:public Figura{
   public:
     Square():Figura(){};
-    void squareArea(){
-    getArea();
-    }
 /*
     Asignar el área del cuadrado.
 */
 
 };
 class Rectangle:public Figura{
-
+public:
     Rectangle(int b, int h):Figura(b,h){}
 /*
     Asignar el área del Rectángulo.
@@ -31,6 +28,7 @@ class Rectangle:public Figura{
 
 };
 class Triangle:public Figura{
+public:
      Triangle(int b, int h):Figura(b,h){}
 /*
     Asignar el área del Triángulo.
